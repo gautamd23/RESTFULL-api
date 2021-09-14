@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>USERS</title>
+</head>
+<body>
+  <form method="post" action="/"> {% csrf_token %}
+  <script src="{% static 'users/my.js' %}"></script>
+  </form>
+</body>
+</html>
